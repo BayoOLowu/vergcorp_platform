@@ -1,0 +1,11 @@
+{
+    "lookback_period": 20,
+    "rsi_period": 14,
+    "atr_period": 14,
+    "roc_period": 20,
+    "momentum_threshold": 3.0,
+    "atr_deviation_threshold": 1.2,
+    "zscore_threshold": 1.5,
+    "capital_base": 100000.0,
+    "transaction_cost_pct": 0.001
+}
