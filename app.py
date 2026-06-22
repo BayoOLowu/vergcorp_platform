@@ -12,7 +12,7 @@ import matplotlib.dates as mdates
 # =========================================================================
 # SYSTEM STYLING & INSTITUTIONAL THEME SETUP
 # =========================================================================
-plt.style.use('seaborn-v0_8-darkgrid' if 'seaborn-v0_8-darkgrid' in plt.style.available() else 'default')
+plt.style.use('seaborn-v0_8-darkgrid' if 'seaborn-v0_8-darkgrid' in plt.style.available else 'default')
 plt.rcParams.update({
     'font.size': 10, 'axes.labelsize': 12, 'axes.titlesize': 14,
     'xtick.labelsize': 10, 'ytick.labelsize': 10, 'figure.titlesize': 16,
